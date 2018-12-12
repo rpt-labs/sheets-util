@@ -15,4 +15,6 @@ You'll need to set up a few things in order to develop further:
 
 * In order to edit the deployed lambda function, you will need to make your changes locally, then compress all files (including config files and node modules folder).  You will upload the resulting Archive.zip to lambda and save.
 
-* Please be sure to keep current deployed lambda code in sync with this repository - you will be unable to view the code directly from AWS lambda.
+* Note that every time you make a change to your code that you wish to preserve or upload to AWS lambda, you must delete the old Archive.zip file and create a new one to upload.
+
+* Please be sure to keep current deployed lambda code in sync with this repository as you will be unable to view the code directly from AWS lambda.
